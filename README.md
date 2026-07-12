@@ -1,20 +1,29 @@
-# EduManage – Complete School Management System
+# 🎓 EduManage – Complete School Management System
+
+<p align="center">
 
 ![PHP](https://img.shields.io/badge/PHP-5.6-777BB4?style=for-the-badge&logo=php)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-3-DD4814?style=for-the-badge&logo=codeigniter)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-Responsive-7952B3?style=for-the-badge&logo=bootstrap)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
+![License](https://img.shields.io/badge/License-Portfolio-blue?style=for-the-badge)
 
-## 📚 Overview
-
-**EduManage** is a comprehensive School Management System designed for educational institutions to digitize and automate daily academic and administrative operations. The platform provides dedicated portals for **Administrators, Teachers, Students, and Parents**, enabling efficient management of academic activities, attendance, examinations, fee collection, communication, and institutional records.
-
-Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, and **Bootstrap**, EduManage delivers a secure, scalable, and responsive web application suitable for schools, colleges, and educational organizations.
+</p>
 
 ---
 
-## 📅 Project Information
+# 📚 Overview
+
+**EduManage** is a modern and comprehensive **School Management System (SMS)** developed to digitize academic and administrative operations for schools, colleges, and educational institutions.
+
+The system provides dedicated portals for **Administrators, Teachers, Students, and Parents**, enabling efficient management of academic sessions, classes, attendance, examinations, fee collection, communication, and institutional records from a centralized platform.
+
+Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, **Bootstrap**, and **JavaScript**, EduManage delivers a secure, scalable, and responsive educational management solution.
+
+---
+
+# 📅 Project Information
 
 | Item | Details |
 |------|----------|
@@ -22,39 +31,68 @@ Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, and **Bootstrap**, EduM
 | **Duration** | June 2021 – March 2022 |
 | **Category** | School Management System |
 | **Architecture** | Multi-Portal Web Application |
-| **Backend** | PHP 5.6, CodeIgniter |
+| **Backend** | PHP 5.6 + CodeIgniter |
 | **Frontend** | Bootstrap, HTML5, CSS3, JavaScript, jQuery |
 | **Database** | MySQL |
 
 ---
 
-# 🚀 Features
+# 🏗 System Architecture
 
-## 👨‍💼 Admin Portal
+```text
+                         +----------------------+
+                         |      Administrator   |
+                         +----------+-----------+
+                                    |
+      --------------------------------------------------------
+      |                     |                    |            |
+      ▼                     ▼                    ▼            ▼
+ Teachers              Students             Parents     Academic Staff
+      |                     |                    |
+      --------------------------------------------------------
+                          |
+               School Management System
+                 (CodeIgniter Backend)
+                          |
+ ---------------------------------------------------------------
+ |         |           |           |           |               |
+ ▼         ▼           ▼           ▼           ▼               ▼
+Academic Attendance Examination Fee Mgmt Communication Reports
+Management Tracking     System      & Billing   & Noticeboard
+                          |
+                          ▼
+                    MySQL Database
+```
 
-- Dashboard & Analytics
+---
+
+# 👥 User Portals
+
+## 👨‍💼 Administrator
+
+- Dashboard
 - Academic Session Management
 - Class & Section Management
-- Subject Management
-- Teacher Management
 - Student Management
+- Teacher Management
 - Parent Management
+- Subject Management
 - Fee Collection
 - Examination Management
-- Grade Configuration
-- Library Management
-- Transport Management
-- Dormitory Management
 - Attendance Reports
+- Library Management
+- Transportation Management
+- Dormitory Management
 - Noticeboard
 - Messaging System
+- Reports
 - System Settings
 
 ---
 
-## 👨‍🏫 Teacher Portal
+## 👨‍🏫 Teacher
 
-- Teacher Dashboard
+- Dashboard
 - Student Attendance
 - Examination Marks Entry
 - Class Routine
@@ -65,37 +103,38 @@ Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, and **Bootstrap**, EduM
 
 ---
 
-## 👨‍🎓 Student Portal
+## 👨‍🎓 Student
 
-- Personal Dashboard
-- Attendance History
+- Dashboard
+- Attendance Reports
 - Examination Results
-- Mark Sheets
+- GPA & Mark Sheets
 - Fee Status
 - Class Routine
-- Noticeboard
 - Messages
+- Notices
 - Profile Information
 
 ---
 
-## 👨‍👩‍👧 Parent Portal
+## 👨‍👩‍👧 Parent
 
+- Dashboard
 - Child Academic Progress
 - Attendance Reports
 - Examination Results
 - Fee Payment Status
-- Communication with Teachers
+- Teacher Communication
 - School Notices
-- Student Profile Monitoring
+- Student Monitoring
 
 ---
 
-# 📖 Core Modules
+# 🚀 Core Modules
 
-## Academic Management
+## 📖 Academic Management
 
-- Academic Session Management
+- Academic Sessions
 - Class Management
 - Section Management
 - Subject Management
@@ -105,101 +144,98 @@ Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, and **Bootstrap**, EduM
 
 ---
 
-## Student Management
+## 👨‍🎓 Student Management
 
 - Student Registration
 - Student Profiles
-- Enrollment Records
-- Academic Information
+- Enrollment History
+- Academic Records
 - Parent Mapping
-- Student History
 
 ---
 
-## Teacher Management
+## 👨‍🏫 Teacher Management
 
 - Teacher Profiles
 - Subject Assignment
 - Class Assignment
-- Attendance Management
-- Profile Updates
+- Teacher Information
 
 ---
 
-## Attendance Management
+## 📅 Attendance Management
 
 - Daily Attendance
 - Class-wise Attendance
 - Section-wise Attendance
 - Attendance Reports
 - Student Attendance History
-- Absence Tracking
+- Absence Monitoring
 
 ---
 
-## Examination Management
+## 📝 Examination Management
 
 - Examination Terms
 - Subject Marks
-- Grade Calculation
+- Grade Management
 - GPA Calculation
-- Report Cards
-- Printable Mark Sheets
+- Mark Sheet Generation
+- Printable Results
 
 ---
 
-## Fee Management
+## 💰 Fee Management
 
-- Student Fee Collection
-- Invoice Generation
+- Fee Collection
+- Student Invoices
 - Payment Tracking
-- Payment History
-- Paid/Unpaid Status
-- Financial Records
+- Payment Status
+- Financial Reports
 
 ---
 
-## Library Management
+## 📚 Library Management
 
-- Book Management
+- Library Books
 - Book Records
-- Library Information
+- Student Library Information
 
 ---
 
-## Transportation
+## 🚌 Transportation
 
 - Vehicle Information
-- Transport Routes
 - Student Transport Records
+- Route Management
 
 ---
 
-## Dormitory Management
+## 🏠 Dormitory Management
 
 - Dormitory Details
-- Room Information
+- Room Allocation
 - Student Accommodation Records
 
 ---
 
-## Communication System
+## 💬 Communication System
 
 - Internal Messaging
-- Seen/Unseen Messages
+- Seen / Unseen Messages
+- Message History
 - Noticeboard
-- Announcements
-- Communication History
+- School Announcements
 
 ---
 
-## System Configuration
+## ⚙ System Configuration
 
 - Academic Sessions
 - Grade Configuration
 - Fee Structure
 - General Settings
-- User Roles
+- User Profiles
 - Permissions
 
 ---
@@ -211,34 +247,34 @@ Developed using **PHP 5.6**, **CodeIgniter**, **MySQL**, and **Bootstrap**, EduM
 - Student
 - Parent
 
-Each user has secure authentication with **Role-Based Access Control (RBAC)** ensuring access only to authorized modules.
+Every user is authenticated through a secure **Role-Based Access Control (RBAC)** system with permission-based access.
 
 ---
 
 # 🛠 Technology Stack
 
-### Backend
+## Backend
 
 - PHP 5.6
 - CodeIgniter Framework
 
-### Frontend
+## Frontend
 
+- Bootstrap
 - HTML5
 - CSS3
-- Bootstrap
 - JavaScript
 - jQuery
 
-### Database
+## Database
 
 - MySQL
 
 ---
 
-# 📊 Database
+# 🗄 Database Structure
 
-The system maintains structured MySQL tables for:
+The system manages information for:
 
 - Users
 - Students
@@ -249,11 +285,12 @@ The system maintains structured MySQL tables for:
 - Sections
 - Subjects
 - Attendance
-- Examination Marks
+- Examination Terms
+- Marks
 - Grades
 - Payments
 - Invoices
-- Library
+- Library Books
 - Transport
 - Dormitories
 - Messages
@@ -261,68 +298,50 @@ The system maintains structured MySQL tables for:
 
 ---
 
-# 📈 Key Functionalities
+# 📊 Academic Workflow
 
-- Multi-user Authentication
-- Role-Based Access Control
-- Student Enrollment
-- Academic Session Management
-- Class Scheduling
-- Attendance Tracking
-- Examination Management
-- Automatic GPA Calculation
-- Mark Sheet Generation
-- Invoice Generation
-- Fee Collection
-- Internal Messaging
-- Noticeboard
-- Reporting System
-- Responsive Interface
-
----
-
-# 🔒 Security Features
-
-- Secure Login Authentication
-- Session Management
-- Password Protection
-- Role-Based Authorization
-- Input Validation
-- SQL Injection Prevention (CodeIgniter Query Builder)
-- Permission-Based Access
-
----
-
-# 📱 Responsive Design
-
-The application is fully responsive and compatible with:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-# ⚡ Technical Highlights
-
-- Modular MVC Architecture
-- CodeIgniter Framework
-- Reusable Components
-- Clean Database Design
-- Responsive Bootstrap UI
-- Printable Reports
-- GPA Automation
-- Invoice Printing
-- Attendance Reports
-- Internal Messaging
-- Noticeboard Management
+```text
+Student Registration
+        │
+        ▼
+Class & Section Assignment
+        │
+        ▼
+Subject Enrollment
+        │
+        ▼
+Daily Attendance
+        │
+        ▼
+Class Routine
+        │
+        ▼
+Examinations
+        │
+        ▼
+Marks Entry
+        │
+        ▼
+Automatic GPA Calculation
+        │
+        ▼
+Mark Sheet Generation
+        │
+        ▼
+Fee Collection
+        │
+        ▼
+Invoice Generation
+        │
+        ▼
+Parent Monitoring
+```
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 application/
 │
 ├── controllers/
@@ -337,34 +356,53 @@ assets/
 ├── js/
 ├── images/
 │
-system/
-│
 uploads/
+│
+system/
 │
 index.php
 ```
 
 ---
 
-# 📸 Main Modules
+# ⚡ Technical Highlights
 
-- Admin Dashboard
-- Teacher Dashboard
-- Student Dashboard
-- Parent Dashboard
-- Student Management
-- Teacher Management
-- Attendance
-- Examination
+- MVC Architecture (CodeIgniter)
+- Modular Codebase
+- Responsive Bootstrap UI
+- Role-Based Authentication
+- Student Attendance Tracking
+- GPA Automation
+- Examination Management
+- Invoice Generation
 - Fee Collection
-- Accounting
-- Messaging
-- Noticeboard
-- Library
-- Transport
-- Dormitory
-- Reports
-- System Settings
+- Internal Messaging
+- Noticeboard System
+- Reporting Module
+- Session Management
+
+---
+
+# 📱 Responsive Design
+
+Optimized for:
+
+- 💻 Desktop
+- 🖥 Laptop
+- 📱 Mobile
+- 📟 Tablet
+
+---
+
+# 🔒 Security Features
+
+- Secure Login Authentication
+- Session Management
+- Role-Based Authorization
+- Password Protection
+- Permission Management
+- Input Validation
+- SQL Injection Protection (CodeIgniter Query Builder)
 
 ---
 
@@ -372,18 +410,43 @@ index.php
 
 - Complete Multi-Portal School Management System
 - End-to-End Academic Administration
-- Automated GPA & Grade Calculation
 - Student Attendance Monitoring
-- Fee Collection & Invoice Generation
+- Examination & GPA Automation
+- Fee Collection & Invoice Management
 - Internal Communication Platform
-- Responsive User Experience
-- Secure Role-Based Access Control
-- Modular CodeIgniter MVC Architecture
-- Scalable Database Design
+- Library & Transportation Modules
+- Dormitory Management
+- Responsive Bootstrap Interface
+- Secure Role-Based Authentication
+- Modular MVC Architecture
+- Scalable MySQL Database
 
 ---
 
-# 👨‍💻 Developed With
+# 📸 Major Modules
+
+- Admin Dashboard
+- Teacher Dashboard
+- Student Dashboard
+- Parent Dashboard
+- Academic Sessions
+- Student Management
+- Teacher Management
+- Attendance
+- Examinations
+- GPA & Grade Management
+- Fee Collection
+- Library
+- Transportation
+- Dormitories
+- Reports
+- Messaging
+- Noticeboard
+- System Settings
+
+---
+
+# 👨‍💻 Built With
 
 - PHP 5.6
 - CodeIgniter
@@ -396,10 +459,20 @@ index.php
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is provided for **portfolio and educational demonstration purposes only**. Commercial use, redistribution, or resale requires permission from the project owner.
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a Star!
+# ⭐ Support
+
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
+
+---
+
+## 📬 Contact
+
+For collaboration, customization, or enterprise solutions, feel free to connect.
+
+**Developer:** Afrasiab Ahmad
